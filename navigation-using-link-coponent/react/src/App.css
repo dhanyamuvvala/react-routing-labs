@@ -1,0 +1,71 @@
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Force full screen layout */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Body style */
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* App container */
+.app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  background: #0f172a;
+  color: white;
+  width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  color: #38bdf8;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #38bdf8;
+}
+
+/* ===== PAGE ===== */
+
+.page {
+  padding: 80px 60px;
+  width: 100%;
+  min-height: calc(100vh - 70px);
+}
+
+.page h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.page p {
+  font-size: 18px;
+  color: #475569;
+}
